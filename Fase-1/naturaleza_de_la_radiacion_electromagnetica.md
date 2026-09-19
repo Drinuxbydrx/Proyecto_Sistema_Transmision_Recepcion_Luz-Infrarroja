@@ -247,7 +247,7 @@ Onda plana:
 
 $$
 \begin{aligned}
-\vec{E} &= E_y(x,t) \hat{y} \\[1.5ex]
+\vec{E} &= E_y(x,t) \hat{y} \\
 \end{aligned}
 $$
 
@@ -263,9 +263,8 @@ Vamos a utilizar la ecuacion de onda generica
 
 $$
 \begin{aligned}
-\frac{\partial^2 f}{\partial x^2} &= \frac{1}{v^2} \frac{\partial^2 f}{\partial t^2} \\[1.5ex]
-\mu_0 \varepsilon_0 &= \frac{1}{v^2} \\[1.5ex]
-
+\frac{\partial^2 f}{\partial x^2} &= \frac{1}{v^2} \frac{\partial^2 f}{\partial t^2} \\
+\mu_0 \varepsilon_0 &= \frac{1}{v^2} \\
 \end{aligned}
 $$
 
@@ -273,8 +272,8 @@ y realizamos comparacion
 
 $$
 \begin{aligned}
-\frac{\partial^2 E_y}{\partial x^2} &= \mu_0 \varepsilon_0 \frac{\partial^2 E_y}{\partial t^2} \\[1.5ex]
-\frac{\partial^2 f}{\partial x^2} &= \frac{1}{v^2} \frac{\partial^2 f}{\partial t^2} \\[1.5ex]
+\frac{\partial^2 E_y}{\partial x^2} &= \mu_0 \varepsilon_0 \frac{\partial^2 E_y}{\partial t^2} \\
+\frac{\partial^2 f}{\partial x^2} &= \frac{1}{v^2} \frac{\partial^2 f}{\partial t^2} \\
 \end{aligned}
 $$
 
@@ -299,7 +298,7 @@ Valores de permeabilidad y pemitividad en el vacio
 
 $$
 \begin{aligned}
-\text{\textbf{Permeabilidad magnética del vacío:}} \quad \mu_0 &= 4\pi \times 10^{-7} \text{ N/A}^2 \approx 1.2566 \times 10^{-6} \text{ N/A}^2 \\[1.5ex]
+\text{\textbf{Permeabilidad magnética del vacío:}} \quad \mu_0 &= 4\pi \times 10^{-7} \text{ N/A}^2 \approx 1.2566 \times 10^{-6} \text{ N/A}^2 \\
 \text{\textbf{Permitividad eléctrica del vacío:}} \quad \varepsilon_0 &\approx 8.854187 \times 10^{-12} \text{ F/m}
 \end{aligned}
 $$
@@ -355,7 +354,7 @@ Finalmente Simplificamos
 
 $$
 \begin{aligned}
--k^2 &= -\frac{\omega^2}{c^2} \\[1.5ex]
+-k^2 &= -\frac{\omega^2}{c^2} \\
 k^2 &= \frac{\omega^2}{c^2} \quad \implies \quad k = \frac{\omega}{c} \quad \text{o} \quad c = \frac{\omega}{k}
 \end{aligned}
 $$
@@ -366,8 +365,8 @@ Valores obtenidos:
 $$
 \begin{aligned}
 
-k \quad &\rightarrow \quad \text{\textbf{Número de onda angular}} \quad \left( k = \frac{2\pi}{\lambda}, \text{ en rad/m} \right) \\[1.5ex]
-\omega \quad &\rightarrow \quad \text{\textbf{Frecuencia angular}} \quad \left( \omega = 2\pi f, \text{ en rad/s} \right) \\[1.5ex]
+k \quad &\rightarrow \quad \text{\textbf{Número de onda angular}} \quad \left( k = \frac{2\pi}{\lambda}, \text{ en rad/m} \right) \\
+\omega \quad &\rightarrow \quad \text{\textbf{Frecuencia angular}} \quad \left( \omega = 2\pi f, \text{ en rad/s} \right) \\
 c \quad &\rightarrow \quad \text{\textbf{Velocidad de propagación de la luz en el vacío}} \quad \left( c \approx 3 \times 10^8 \text{ m/s} \right)
 \end{aligned}
 $$
