@@ -137,3 +137,302 @@ $$
 Estas cuatro ecuaciones en conjunto forman toda la estructura electromagnética que nos ayuda a entender como se conforma el mundo de las comunicaciones.
 
 # Derivación de la ecuación de onda para los campos Eléctrico y Magnético
+
+Partimos de las ecuaciones de Maxwell en el vacío.
+
+$$
+\begin{aligned}
+\nabla \cdot \vec{E} &= 0 \\
+\nabla \cdot \vec{B} &= 0 \\
+\nabla \times \vec{E} &= -\frac{\partial \vec{B}}{\partial t} \\
+\nabla \times \vec{B} &= \mu_0 \varepsilon_0 \frac{\partial \vec{E}}{\partial t}
+\end{aligned}
+$$
+
+Entonces aplicamos el rotacional a la ley de Michael Faraday
+
+$$
+\begin{aligned}
+\nabla \times (\nabla \times \vec{E}) &= \nabla \times \left(-\frac{\partial \vec{B}}{\partial t}\right)
+\end{aligned}
+$$
+
+debemos tener en cuenta la siguiente formula **Identidad del doble rotacional**
+
+$$
+\begin{aligned}
+\text{Doble rotacional:} \quad \nabla \times (\nabla \times \vec{E}) &= \nabla(\nabla \cdot \vec{E}) - \nabla^2 \vec{E}
+\end{aligned}
+$$
+
+y como nos encontramos en el vacio sabemos que
+
+$$
+\nabla \cdot \vec{E} = 0
+$$
+
+entonces nuestra igualacion queda de la siguiente forma:
+
+$$
+\begin{aligned}
+\quad \nabla \times (\nabla \times \vec{E}) &= - \nabla^2 \vec{E}
+\end{aligned}
+$$
+
+Ahora de nuestra segunda igualdad intercambiamos el orden de las derivadas
+
+$$
+\begin{aligned}
+-\nabla \times \left(\frac{\partial \vec{B}}{\partial t}\right)
+\end{aligned}
+$$
+
+se aplica igualdad de las derivadas mixtas **teorema de Schwarz**
+
+$$
+\begin{aligned}
+ 
+-\nabla \times \left(\frac{\partial \vec{B}}{\partial t}\right) &= -\frac{\partial}{\partial t}(\nabla \times \vec{B})
+\end{aligned}
+$$
+
+Posterior a ello sabemos por la ley de Ampére-Maxwell que 
+
+$$
+\nabla \times \vec{B} = \mu_0 \varepsilon_0 \frac{\partial \vec{E}}{\partial t}
+$$
+
+Sutituimos en la igualdad obtenida
+
+$$
+\begin{aligned}
+ 
+-\frac{\partial}{\partial t}(\nabla \times \vec{B})=
+-\frac{\partial}{\partial t} \left( \mu_0 \varepsilon_0 \frac{\partial \vec{E}}{\partial t} \right) 
+= -\mu_0 \varepsilon_0 \frac{\partial^2 \vec{E}}{\partial t^2}
+\end{aligned}
+$$
+
+Y juntando nuestra igualdad
+
+$$
+\begin{aligned}
+ 
+- \nabla^2 \vec{E}=-\mu_0 \varepsilon_0 \frac{\partial^2 \vec{E}}{\partial t^2}
+\end{aligned}
+$$
+
+y multiplicamos por -1 ambas partes de la igualdad y obtenemos
+
+Ecuacion de onda para el campo electrico
+
+$$
+\begin{aligned}
+ 
+\nabla^2 \vec{E}=\mu_0 \varepsilon_0 \frac{\partial^2 \vec{E}}{\partial t^2}
+\end{aligned}
+$$
+
+siguiendo el mismo razonamiento se realiza el proceso partiendo de la ley de Ampere-Maxwell y se obtiene :
+
+$$
+\begin{aligned}
+ 
+\nabla^2 \vec{B}=\mu_0 \varepsilon_0 \frac{\partial^2 \vec{B}}{\partial t^2}
+\end{aligned}
+$$
+
+y de esta forma obtuvimos las ecuaciones de onda para el campo electrico como para el campo magnetico.
+
+# Velocidad de propagacion
+
+Partimos de la ecuacion de onda para el campo electrico que obtuvimos
+
+$$
+\begin{aligned}
+\nabla^2 \vec{E} &= \mu_0 \varepsilon_0 \frac{\partial^2 \vec{E}}{\partial t^2} \\[1.5ex]
+\end{aligned}
+$$
+
+para simplificar los calculos vamos a trabajar con una onda que viaja en una sola direccion x y cuyo campo electrico siempre apunta al eje y.
+
+Onda plana:
+
+$$
+\begin{aligned}
+\vec{E} &= E_y(x,t) \hat{y} \\[1.5ex]
+\end{aligned}
+$$
+
+y como no depende de y ni de z, el laplaciano completo se reduce a una sola derivada
+
+$$
+\begin{aligned}
+
+\frac{\partial^2 E_y}{\partial x^2} &= \mu_0 \varepsilon_0 \frac{\partial^2 E_y}{\partial t^2} 
+\end{aligned}
+$$
+
+Vamos a utilizar la ecuacion de onda generica
+
+$$
+\begin{aligned}
+
+\frac{\partial^2 f}{\partial x^2} &= \frac{1}{v^2} \frac{\partial^2 f}{\partial t^2} \\[1.5ex]
+\mu_0 \varepsilon_0 &= \frac{1}{v^2} \\[1.5ex]
+
+\end{aligned}
+$$
+
+y realizamos comparacion 
+
+$$
+\begin{aligned}
+\frac{\partial^2 E_y}{\partial x^2} &= \mu_0 \varepsilon_0 \frac{\partial^2 E_y}{\partial t^2} \\[1.5ex]
+\frac{\partial^2 f}{\partial x^2} &= \frac{1}{v^2} \frac{\partial^2 f}{\partial t^2} \\[1.5ex]
+\end{aligned}
+$$
+
+y obtenemos 
+
+$$
+\begin{aligned}
+\mu_0 \varepsilon_0 &= \frac{1}{v^2} \\[1.5ex]
+\end{aligned}
+$$
+
+Despejamos la formula obtenida y finalmente obtenemos un valor para la velocidad
+
+$$
+\begin{aligned}
+v^2 &= \frac{1}{\mu_0 \varepsilon_0} \\[1.5ex]
+v &= \frac{1}{\sqrt{\mu_0 \varepsilon_0}}
+\end{aligned}
+$$
+ 
+Valores de permeabilidad y pemitividad en el vacio
+
+$$
+\begin{aligned}
+\text{\textbf{Permeabilidad magnética del vacío:}} \quad \mu_0 &= 4\pi \times 10^{-7} \text{ N/A}^2 \approx 1.2566 \times 10^{-6} \text{ N/A}^2 \\[1.5ex]
+\text{\textbf{Permitividad eléctrica del vacío:}} \quad \varepsilon_0 &\approx 8.854187 \times 10^{-12} \text{ F/m}
+\end{aligned}
+$$
+
+Sustituyendo los valores de permeabilidad y permitividad
+
+$$
+\begin{aligned}
+v &= \frac{1}{\sqrt{\mu_0 \varepsilon_0}} \\[1.5ex]
+v &= \frac{1}{\sqrt{\left(4\pi \times 10^{-7} \text{ N/A}^2\right) \left(8.854187 \times 10^{-12} \text{ F/m}\right)}} \\[1.5ex]
+v &= \frac{1}{\sqrt{1.11265 \times 10^{-17} \text{ s}^2/\text{m}^2}} \\[1.5ex]
+v &\approx \frac{1}{3.33564 \times 10^{-9} \text{ s/m}} \\[1.5ex]
+v &\approx 299\,792\,458 \text{ m/s} \approx 3 \times 10^8 \text{ m/s} = c
+\end{aligned}
+$$
+
+# Solucion de onda viajera
+
+Propuesta de solución para la onda viajera
+
+$$
+\begin{aligned}
+E_y(x,t) &= E_0 \sin(kx - \omega t) \\[2ex]
+\end{aligned}
+$$
+
+Calculamos la segunda derivada temporal 
+$$
+\begin{aligned}
+\frac{\partial E_y}{\partial x} &= k E_0 \cos(kx - \omega t) \\[1ex]
+\frac{\partial^2 E_y}{\partial x^2} &= -k^2 E_0 \sin(kx - \omega t) \\[2ex]
+\end{aligned}
+$$
+
+Calculamos la segunda derivada espacial
+$$
+\begin{aligned}
+\frac{\partial E_y}{\partial t} &= -\omega E_0 \cos(kx - \omega t) \\[1ex]
+\frac{\partial^2 E_y}{\partial t^2} &= -\omega^2 E_0 \sin(kx - \omega t) \\[2ex]
+\end{aligned}
+$$
+
+Sustituimos en la ecuacion de onda
+
+$$
+\begin{aligned}
+\frac{\partial^2 E_y}{\partial x^2} = \frac{1}{c^2} \frac{\partial^2 E_y}{\partial t^2} \\[1ex]
+-k^2 E_0 \sin(kx - \omega t) &= \frac{1}{c^2} \left[ -\omega^2 E_0 \sin(kx - \omega t) \right] \\[2ex]
+\end{aligned}
+$$
+
+Finalmente Simplificamos 
+
+$$
+\begin{aligned}
+-k^2 &= -\frac{\omega^2}{c^2} \\[1.5ex]
+k^2 &= \frac{\omega^2}{c^2} \quad \implies \quad k = \frac{\omega}{c} \quad \text{o} \quad c = \frac{\omega}{k}
+\end{aligned}
+$$
+
+
+Valores obtenidos:
+
+$$
+\begin{aligned}
+
+k \quad &\rightarrow \quad \text{\textbf{Número de onda angular}} \quad \left( k = \frac{2\pi}{\lambda}, \text{ en rad/m} \right) \\[1.5ex]
+\omega \quad &\rightarrow \quad \text{\textbf{Frecuencia angular}} \quad \left( \omega = 2\pi f, \text{ en rad/s} \right) \\[1.5ex]
+c \quad &\rightarrow \quad \text{\textbf{Velocidad de propagación de la luz en el vacío}} \quad \left( c \approx 3 \times 10^8 \text{ m/s} \right)
+\end{aligned}
+$$
+
+# Relación fundamental entre velocidad, longitud de onda y frecuencia
+
+Primero partimos de la relacion de dispersion 
+
+$$
+\begin{aligned}
+k &= \frac{\omega}{c} \quad \implies \quad c = \frac{\omega}{k} \\[2.5ex]
+\end{aligned}
+$$
+
+Despues sustituimos las definiciones de las variables
+
+$$
+\begin{aligned}
+\omega &= 2\pi f \quad \text{(Frecuencia angular en rad/s)} \\[1ex]
+k &= \frac{2\pi}{\lambda} \quad \text{(Número de onda angular en rad/m)} \\[2.5ex]
+\end{aligned}
+$$
+
+Y sustituimos en nuestra variable que relaciona ambas a formulas y es la luz
+
+$$
+\begin{aligned}
+c &= \frac{2\pi f}{\left(\dfrac{2\pi}{\lambda}\right)} \\[2.5ex]
+\end{aligned}
+$$
+
+Simplificamos la relacion obtenida 
+
+$$
+\begin{aligned}
+c &= \frac{2\pi f \cdot \lambda}{2\pi} \\[2.5ex]
+\end{aligned}
+$$
+
+Cancelamos el factor comun
+$$
+\begin{aligned}
+c &= \lambda \cdot f
+\end{aligned}
+$$
+
+Esta relacion obtenida es fundamental para poder entender lo que es el Infrarrojo ya que esta relacion explica excatamente como es que una onda electromagnetica se propaga en el vacio y dependiendo a su frecuencia es como se clasificara ese tipo de onda como se vera en el siguiente capitulo
+
+$$
+\begin{aligned}
+f &= \frac{c}{\lambda}
+\end{aligned}
+$$
