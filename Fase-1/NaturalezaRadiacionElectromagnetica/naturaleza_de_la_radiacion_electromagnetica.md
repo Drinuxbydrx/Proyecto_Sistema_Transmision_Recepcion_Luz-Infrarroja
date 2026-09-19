@@ -23,9 +23,7 @@ El flujo de un campo eléctrico a traves de una superficie cerrada, es igual a l
 ### Forma integral
 
 $$
-\oint_S \vec{E}\cdot d\vec{A}
-=
-\frac{Q_{\mathrm{enc}}}{\varepsilon_0}
+\oint_S \vec{E}\cdot d\vec{A}=\frac{Q_{\mathrm{enc}}}{\varepsilon_0}
 $$
 
 **Donde:**
