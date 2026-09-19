@@ -20,7 +20,7 @@ Maxwell científico el cual formula toda una teoría,en 1864 publica **A Dynamic
 
 El flujo de un campo eléctrico a traves de una superficie cerrada, es igual a la razón de la carga encerrada en esa superficie y la permitividad del vacío.
 
-### Forma integral
+Forma integral:
 
 $$
 \oint_S \vec{E}\cdot d\vec{A}=\frac{Q_{\mathrm{enc}}}{\varepsilon_0}
@@ -58,28 +58,23 @@ $$
 
 ## Michael Faraday
 
-1.- Ley de faraday
+Ley de faraday
 
 Describe como un campo magnético que cambia en el tiempo genera un campo eléctrico.
 
 Forma Integral
 
 $$
-\oint_C \vec{E}\cdot d\vec{l}
-=
--\frac{d\Phi_B}{dt}
+\oint_C \vec{E}\cdot d\vec{l}=-\frac{d\Phi_B}{dt}
 $$
 
 **Donde:**
 $$
-\Phi_B
-=
-Flujo magnético
+\Phi_B=Flujo magnético
 $$
+
 $$
-\Phi_B
-=
-\int_S \vec{B}\cdot d\vec{A}
+\Phi_B=\int_S \vec{B}\cdot d\vec{A}
 $$
 
 Ley de lenz
@@ -104,12 +99,7 @@ Ley de Ampere-Maxwell
 Esta ley principalmente describe como se genera un campo magnético a traves de una corriente como por un campo eléctrico que cambia en el tiempo.
 
 $$
-\oint_C \vec{B}\cdot d\vec{l}
-=
-\mu_0 I_{\mathrm{enc}}
-+
-\mu_0\varepsilon_0
-\frac{d\Phi_E}{dt}
+\oint_C \vec{B}\cdot d\vec{l}=\mu_0 I_{\mathrm{enc}}+\mu_0\varepsilon_0\frac{d\Phi_E}{dt}
 $$
 
 **Donde:**
@@ -121,20 +111,13 @@ $$
 $\varepsilon_0$: permitividad eléctrica del vacío.
 $\mu_0$: permeabilidad magnética del vacío.
 $$
-\Phi_E
-=
-\int_S \vec{E}\cdot d\vec{A}
+\Phi_E=\int_S \vec{E}\cdot d\vec{A}
 $$
 
 Forma diferencial
 
 $$
-\nabla\times\vec{B}
-=
-\mu_0\vec{J}
-+
-\mu_0\varepsilon_0
-\frac{\partial\vec{E}}{\partial t}
+\nabla\times\vec{B}=\mu_0\vec{J}+\mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}
 $$
 
 **Donde:**
