@@ -20,7 +20,7 @@ Maxwell científico el cual formula toda una teoría,en 1864 publica **A Dynamic
 
 El flujo de un campo eléctrico a traves de una superficie cerrada, es igual a la razón de la carga encerrada en esa superficie y la permitividad del vacío.
 
-Forma integral
+### Forma integral
 
 $$
 \oint_S \vec{E}\cdot d\vec{A}
