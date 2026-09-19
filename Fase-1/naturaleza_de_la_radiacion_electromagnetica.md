@@ -2,7 +2,7 @@
 
 Una onda electromagnética es una perturbación del campo eléctrico y magnético, su característica primordial es que se propaga por el espacio transportando energía,también lo puede hacer en el vacío.Principalmente viajan a la velocidad de la luz,no necesitan de algún medio como el agua o el aire para propagarse, ya que esto lo realizan mediante oscilaciones de campos eléctricos y magnéticos, que se mantienen en retroalimentación de lazo cerrado.
 
-<img src="../../Imagenes/img2.png">
+<img src="../Imagenes/img2.png">
 
 # Ecuaciones de Maxwell.
 
