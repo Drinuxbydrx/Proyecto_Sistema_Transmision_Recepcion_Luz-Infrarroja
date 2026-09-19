@@ -142,9 +142,9 @@ Partimos de las ecuaciones de Maxwell en el vacío.
 
 $$
 \begin{aligned}
-\nabla \cdot \vec{E} &= 0 \\
-\nabla \cdot \vec{B} &= 0 \\
-\nabla \times \vec{E} &= -\frac{\partial \vec{B}}{\partial t} \\
+\nabla \cdot \vec{E} &= 0 
+\nabla \cdot \vec{B} &= 0 
+\nabla \times \vec{E} &= -\frac{\partial \vec{B}}{\partial t}
 \nabla \times \vec{B} &= \mu_0 \varepsilon_0 \frac{\partial \vec{E}}{\partial t}
 \end{aligned}
 $$
@@ -174,26 +174,25 @@ $$
 entonces nuestra igualacion queda de la siguiente forma:
 
 $$
-\begin{aligned}
+
 \quad \nabla \times (\nabla \times \vec{E}) &= - \nabla^2 \vec{E}
-\end{aligned}
+
 $$
 
 Ahora de nuestra segunda igualdad intercambiamos el orden de las derivadas
 
 $$
-\begin{aligned}
+
 -\nabla \times \left(\frac{\partial \vec{B}}{\partial t}\right)
-\end{aligned}
+
 $$
 
 se aplica igualdad de las derivadas mixtas **teorema de Schwarz**
 
 $$
-\begin{aligned}
- 
+
 -\nabla \times \left(\frac{\partial \vec{B}}{\partial t}\right) &= -\frac{\partial}{\partial t}(\nabla \times \vec{B})
-\end{aligned}
+
 $$
 
 Posterior a ello sabemos por la ley de Ampére-Maxwell que 
@@ -250,7 +249,7 @@ Partimos de la ecuacion de onda para el campo electrico que obtuvimos
 
 $$
 \begin{aligned}
-\nabla^2 \vec{E} &= \mu_0 \varepsilon_0 \frac{\partial^2 \vec{E}}{\partial t^2} \\[1.5ex]
+\nabla^2 \vec{E} &= \mu_0 \varepsilon_0 \frac{\partial^2 \vec{E}}{\partial t^2}
 \end{aligned}
 $$
 
