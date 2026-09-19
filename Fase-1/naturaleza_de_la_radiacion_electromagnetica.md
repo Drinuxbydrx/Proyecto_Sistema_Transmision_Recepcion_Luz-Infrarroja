@@ -171,28 +171,22 @@ $$
 \nabla \cdot \vec{E} = 0
 $$
 
-entonces nuestra igualacion queda de la siguiente forma:
+eentonces nuestra igualación queda de la siguiente forma:
 
 $$
-
-\quad \nabla \times (\nabla \times \vec{E}) &= - \nabla^2 \vec{E}
-
+\nabla \times (\nabla \times \vec{E}) = - \nabla^2 \vec{E}
 $$
 
 Ahora de nuestra segunda igualdad intercambiamos el orden de las derivadas
 
 $$
-
 \nabla \times \left(\frac{\partial \vec{B}}{\partial t}\right)
-
 $$
 
 se aplica igualdad de las derivadas mixtas **teorema de Schwarz**
 
 $$
-
-\nabla \times \left(\frac{\partial \vec{B}}{\partial t}\right) &= -\frac{\partial}{\partial t}(\nabla \times \vec{B})
-
+\nabla \times \left(\frac{\partial \vec{B}}{\partial t}\right) = -\frac{\partial}{\partial t}(\nabla \times \vec{B})
 $$
 
 Posterior a ello sabemos por la ley de Ampére-Maxwell que 
@@ -206,9 +200,7 @@ Sutituimos en la igualdad obtenida
 $$
 \begin{aligned}
  
--\frac{\partial}{\partial t}(\nabla \times \vec{B})=
--\frac{\partial}{\partial t} \left( \mu_0 \varepsilon_0 \frac{\partial \vec{E}}{\partial t} \right) 
-= -\mu_0 \varepsilon_0 \frac{\partial^2 \vec{E}}{\partial t^2}
+\frac{\partial}{\partial t}(\nabla \times \vec{B})=\frac{\partial}{\partial t} \left( \mu_0 \varepsilon_0 \frac{\partial \vec{E}}{\partial t} \right) = -\mu_0 \varepsilon_0 \frac{\partial^2 \vec{E}}{\partial t^2}
 \end{aligned}
 $$
 
@@ -216,8 +208,7 @@ Y juntando nuestra igualdad
 
 $$
 \begin{aligned}
- 
-- \nabla^2 \vec{E}=-\mu_0 \varepsilon_0 \frac{\partial^2 \vec{E}}{\partial t^2}
+ \nabla^2 \vec{E}=-\mu_0 \varepsilon_0 \frac{\partial^2 \vec{E}}{\partial t^2}
 \end{aligned}
 $$
 
