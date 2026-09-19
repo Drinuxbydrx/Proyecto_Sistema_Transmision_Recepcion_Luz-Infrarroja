@@ -92,9 +92,7 @@ Forma diferencial
 El rotacional del campo eléctrico es igual a la derivada temporal del campo magnético en ese mismo punto.
 
 $$
-\nabla \times \vec{E}
-=
--\frac{\partial \vec{B}}{\partial t}
+\nabla \times \vec{E}=-\frac{\partial \vec{B}}{\partial t}
 $$
 
 ## André-Marie Ampère y James Clerk Maxwell
@@ -128,12 +126,12 @@ $$
 
 **Donde:**
 
-$\nabla\times\vec{B}$: rotacional del campo magnético.
-$\vec{B}$: campo magnético.
-$\mu_0$: permeabilidad magnética del vacío.
-$\vec{J}$: densidad de corriente eléctrica.
-$\varepsilon_0$: permitividad eléctrica del vacío.
-$\frac{\partial\vec{E}}{\partial t}$: variación temporal del campo eléctrico.
+* $\nabla\times\vec{B}$: rotacional del campo magnético.
+* $\vec{B}$: campo magnético.
+* $\mu_0$: permeabilidad magnética del vacío.
+* $\vec{J}$: densidad de corriente eléctrica.
+* $\varepsilon_0$: permitividad eléctrica del vacío.
+* $\frac{\partial\vec{E}}{\partial t}$: variación temporal del campo eléctrico.
 
 
 Estas cuatro ecuaciones en conjunto forman toda la estructura electromagnética que nos ayuda a entender como se conforma el mundo de las comunicaciones.
