@@ -11,12 +11,12 @@ La idea final será poder capturar la señal de un control remoto,procesar la se
 
 1.1 🌊 Naturaleza de la radiación electromagnética
 
-* [Ondas electromagnéticas]()
-* [Campo eléctrico E]()
-* [Campo magnético B]()
-* [Propagación de ondas electromagnéticas]()
+* [Que es una onda electromagnética?]()
+* [Las ecuaciones de Maxwell]()
+* [Derivación de la ecuación de onda para los campos Eléctrico y Magnético]()
 * [Velocidad de propagación]()
-* [Relación fundamental]()
+* [Solución de onda viajera armónica]()
+* [Relación fundamental entre velocidad, longitud de onda y frecuencia]()
 
 1.2 🔴 Espectro electromagnético
 
