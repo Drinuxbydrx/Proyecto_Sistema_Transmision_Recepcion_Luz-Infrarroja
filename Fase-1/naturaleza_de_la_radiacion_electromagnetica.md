@@ -142,9 +142,9 @@ Partimos de las ecuaciones de Maxwell en el vacío.
 
 $$
 \begin{aligned}
-\nabla \cdot \vec{E} &= 0 
-\nabla \cdot \vec{B} &= 0 
-\nabla \times \vec{E} &= -\frac{\partial \vec{B}}{\partial t}
+\nabla \cdot \vec{E} &= 0 \\
+\nabla \cdot \vec{B} &= 0  \\
+\nabla \times \vec{E} &= -\frac{\partial \vec{B}}{\partial t} \\
 \nabla \times \vec{B} &= \mu_0 \varepsilon_0 \frac{\partial \vec{E}}{\partial t}
 \end{aligned}
 $$
@@ -183,7 +183,7 @@ Ahora de nuestra segunda igualdad intercambiamos el orden de las derivadas
 
 $$
 
--\nabla \times \left(\frac{\partial \vec{B}}{\partial t}\right)
+\nabla \times \left(\frac{\partial \vec{B}}{\partial t}\right)
 
 $$
 
@@ -191,7 +191,7 @@ se aplica igualdad de las derivadas mixtas **teorema de Schwarz**
 
 $$
 
--\nabla \times \left(\frac{\partial \vec{B}}{\partial t}\right) &= -\frac{\partial}{\partial t}(\nabla \times \vec{B})
+\nabla \times \left(\frac{\partial \vec{B}}{\partial t}\right) &= -\frac{\partial}{\partial t}(\nabla \times \vec{B})
 
 $$
 
