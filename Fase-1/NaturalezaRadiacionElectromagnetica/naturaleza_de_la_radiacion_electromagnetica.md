@@ -32,6 +32,7 @@ $$
 - $\varepsilon_0$: permitividad eléctrica del vacío.
 
 Forma diferencial:
+
 $$
 \nabla \cdot \vec{E} = \frac{\rho}{\varepsilon_0}
 $$
@@ -69,6 +70,7 @@ $$
 $$
 
 **Donde:**
+
 $$
 \Phi_B=Flujo magnético
 $$
@@ -80,12 +82,15 @@ $$
 Ley de lenz
 
 El campo eléctrico inducido se opone al cambio de flujo que lo genera.
+
 $$
 -\frac{d\Phi_B}{dt}
 $$
 
 Forma diferencial
+
 El rotacional del campo eléctrico es igual a la derivada temporal del campo magnético en ese mismo punto.
+
 $$
 \nabla \times \vec{E}
 =
@@ -105,11 +110,12 @@ $$
 **Donde:**
 
 $$
-\Phi_E
-=Flujo electrico
+\Phi_E=Flujo electrico
 $$
+
 $\varepsilon_0$: permitividad eléctrica del vacío.
 $\mu_0$: permeabilidad magnética del vacío.
+
 $$
 \Phi_E=\int_S \vec{E}\cdot d\vec{A}
 $$
@@ -122,12 +128,12 @@ $$
 
 **Donde:**
 
-- $\nabla\times\vec{B}$: rotacional del campo magnético.
-- $\vec{B}$: campo magnético.
-- $\mu_0$: permeabilidad magnética del vacío.
-- $\vec{J}$: densidad de corriente eléctrica.
-- $\varepsilon_0$: permitividad eléctrica del vacío.
-- $\frac{\partial\vec{E}}{\partial t}$: variación temporal del campo eléctrico.
+$\nabla\times\vec{B}$: rotacional del campo magnético.
+$\vec{B}$: campo magnético.
+$\mu_0$: permeabilidad magnética del vacío.
+$\vec{J}$: densidad de corriente eléctrica.
+$\varepsilon_0$: permitividad eléctrica del vacío.
+$\frac{\partial\vec{E}}{\partial t}$: variación temporal del campo eléctrico.
 
 
 Estas cuatro ecuaciones en conjunto forman toda la estructura electromagnética que nos ayuda a entender como se conforma el mundo de las comunicaciones.
