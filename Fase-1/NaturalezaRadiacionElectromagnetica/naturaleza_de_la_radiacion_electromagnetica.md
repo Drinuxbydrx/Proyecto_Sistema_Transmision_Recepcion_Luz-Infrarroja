@@ -126,7 +126,7 @@ $$
 
 **Donde:**
 
-* $\nabla\times\vec{B}$: rotacional del campo magnético.
+* $\nabla\times\vec{A}$: rotacional del campo A.
 * $\vec{B}$: campo magnético.
 * $\mu_0$: permeabilidad magnética del vacío.
 * $\vec{J}$: densidad de corriente eléctrica.
