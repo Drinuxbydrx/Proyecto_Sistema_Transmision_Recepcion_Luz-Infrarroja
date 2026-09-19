@@ -321,11 +321,12 @@ Propuesta de solución para la onda viajera
 
 $$
 \begin{aligned}
-E_y(x,t) &= E_0 \sin(kx - \omega t) \\
+E_y(x,t) &= E_0 \sin(kx - \omega t)\\
 \end{aligned}
 $$
 
 Calculamos la segunda derivada temporal 
+
 $$
 \begin{aligned}
 \frac{\partial E_y}{\partial x} &= k E_0 \cos(kx - \omega t) \\
@@ -334,6 +335,7 @@ $$
 $$
 
 Calculamos la segunda derivada espacial
+
 $$
 \begin{aligned}
 \frac{\partial E_y}{\partial t} &= -\omega E_0 \cos(kx - \omega t) \\
@@ -364,7 +366,6 @@ Valores obtenidos:
 
 $$
 \begin{aligned}
-
 k \quad &\rightarrow \quad \text{\textbf{Número de onda angular}} \quad \left( k = \frac{2\pi}{\lambda}, \text{ en rad/m} \right) \\
 \omega \quad &\rightarrow \quad \text{\textbf{Frecuencia angular}} \quad \left( \omega = 2\pi f, \text{ en rad/s} \right) \\
 c \quad &\rightarrow \quad \text{\textbf{Velocidad de propagación de la luz en el vacío}} \quad \left( c \approx 3 \times 10^8 \text{ m/s} \right)
@@ -407,6 +408,7 @@ c &= \frac{2\pi f \cdot \lambda}{2\pi} \\
 $$
 
 Cancelamos el factor comun
+
 $$
 \begin{aligned}
 c &= \lambda \cdot f
