@@ -225,7 +225,6 @@ siguiendo el mismo razonamiento se realiza el proceso partiendo de la ley de Amp
 
 $$
 \begin{aligned}
- 
 \nabla^2 \vec{B}=\mu_0 \varepsilon_0 \frac{\partial^2 \vec{B}}{\partial t^2}
 \end{aligned}
 $$
@@ -256,7 +255,6 @@ y como no depende de y ni de z, el laplaciano completo se reduce a una sola deri
 
 $$
 \begin{aligned}
-
 \frac{\partial^2 E_y}{\partial x^2} &= \mu_0 \varepsilon_0 \frac{\partial^2 E_y}{\partial t^2} 
 \end{aligned}
 $$
@@ -265,7 +263,6 @@ Vamos a utilizar la ecuacion de onda generica
 
 $$
 \begin{aligned}
-
 \frac{\partial^2 f}{\partial x^2} &= \frac{1}{v^2} \frac{\partial^2 f}{\partial t^2} \\[1.5ex]
 \mu_0 \varepsilon_0 &= \frac{1}{v^2} \\[1.5ex]
 
@@ -285,7 +282,7 @@ y obtenemos
 
 $$
 \begin{aligned}
-\mu_0 \varepsilon_0 &= \frac{1}{v^2} \\[1.5ex]
+\mu_0 \varepsilon_0 &= \frac{1}{v^2} \\
 \end{aligned}
 $$
 
@@ -293,7 +290,7 @@ Despejamos la formula obtenida y finalmente obtenemos un valor para la velocidad
 
 $$
 \begin{aligned}
-v^2 &= \frac{1}{\mu_0 \varepsilon_0} \\[1.5ex]
+v^2 &= \frac{1}{\mu_0 \varepsilon_0} \\
 v &= \frac{1}{\sqrt{\mu_0 \varepsilon_0}}
 \end{aligned}
 $$
@@ -311,10 +308,10 @@ Sustituyendo los valores de permeabilidad y permitividad
 
 $$
 \begin{aligned}
-v &= \frac{1}{\sqrt{\mu_0 \varepsilon_0}} \\[1.5ex]
-v &= \frac{1}{\sqrt{\left(4\pi \times 10^{-7} \text{ N/A}^2\right) \left(8.854187 \times 10^{-12} \text{ F/m}\right)}} \\[1.5ex]
-v &= \frac{1}{\sqrt{1.11265 \times 10^{-17} \text{ s}^2/\text{m}^2}} \\[1.5ex]
-v &\approx \frac{1}{3.33564 \times 10^{-9} \text{ s/m}} \\[1.5ex]
+v &= \frac{1}{\sqrt{\mu_0 \varepsilon_0}} \\
+v &= \frac{1}{\sqrt{\left(4\pi \times 10^{-7} \text{ N/A}^2\right) \left(8.854187 \times 10^{-12} \text{ F/m}\right)}} \\
+v &= \frac{1}{\sqrt{1.11265 \times 10^{-17} \text{ s}^2/\text{m}^2}} \\
+v &\approx \frac{1}{3.33564 \times 10^{-9} \text{ s/m}} \\
 v &\approx 299\,792\,458 \text{ m/s} \approx 3 \times 10^8 \text{ m/s} = c
 \end{aligned}
 $$
@@ -325,23 +322,23 @@ Propuesta de solución para la onda viajera
 
 $$
 \begin{aligned}
-E_y(x,t) &= E_0 \sin(kx - \omega t) \\[2ex]
+E_y(x,t) &= E_0 \sin(kx - \omega t) \\
 \end{aligned}
 $$
 
 Calculamos la segunda derivada temporal 
 $$
 \begin{aligned}
-\frac{\partial E_y}{\partial x} &= k E_0 \cos(kx - \omega t) \\[1ex]
-\frac{\partial^2 E_y}{\partial x^2} &= -k^2 E_0 \sin(kx - \omega t) \\[2ex]
+\frac{\partial E_y}{\partial x} &= k E_0 \cos(kx - \omega t) \\
+\frac{\partial^2 E_y}{\partial x^2} &= -k^2 E_0 \sin(kx - \omega t) \\
 \end{aligned}
 $$
 
 Calculamos la segunda derivada espacial
 $$
 \begin{aligned}
-\frac{\partial E_y}{\partial t} &= -\omega E_0 \cos(kx - \omega t) \\[1ex]
-\frac{\partial^2 E_y}{\partial t^2} &= -\omega^2 E_0 \sin(kx - \omega t) \\[2ex]
+\frac{\partial E_y}{\partial t} &= -\omega E_0 \cos(kx - \omega t) \\
+\frac{\partial^2 E_y}{\partial t^2} &= -\omega^2 E_0 \sin(kx - \omega t) \\
 \end{aligned}
 $$
 
@@ -349,8 +346,8 @@ Sustituimos en la ecuacion de onda
 
 $$
 \begin{aligned}
-\frac{\partial^2 E_y}{\partial x^2} = \frac{1}{c^2} \frac{\partial^2 E_y}{\partial t^2} \\[1ex]
--k^2 E_0 \sin(kx - \omega t) &= \frac{1}{c^2} \left[ -\omega^2 E_0 \sin(kx - \omega t) \right] \\[2ex]
+\frac{\partial^2 E_y}{\partial x^2} = \frac{1}{c^2} \frac{\partial^2 E_y}{\partial t^2} \\
+-k^2 E_0 \sin(kx - \omega t) &= \frac{1}{c^2} \left[ -\omega^2 E_0 \sin(kx - \omega t) \right] \\
 \end{aligned}
 $$
 
@@ -381,7 +378,7 @@ Primero partimos de la relacion de dispersion
 
 $$
 \begin{aligned}
-k &= \frac{\omega}{c} \quad \implies \quad c = \frac{\omega}{k} \\[2.5ex]
+k &= \frac{\omega}{c} \quad \implies \quad c = \frac{\omega}{k} \\
 \end{aligned}
 $$
 
@@ -389,8 +386,8 @@ Despues sustituimos las definiciones de las variables
 
 $$
 \begin{aligned}
-\omega &= 2\pi f \quad \text{(Frecuencia angular en rad/s)} \\[1ex]
-k &= \frac{2\pi}{\lambda} \quad \text{(Número de onda angular en rad/m)} \\[2.5ex]
+\omega &= 2\pi f \quad \text{(Frecuencia angular en rad/s)} \\
+k &= \frac{2\pi}{\lambda} \quad \text{(Número de onda angular en rad/m)} \\
 \end{aligned}
 $$
 
@@ -398,7 +395,7 @@ Y sustituimos en nuestra variable que relaciona ambas a formulas y es la luz
 
 $$
 \begin{aligned}
-c &= \frac{2\pi f}{\left(\dfrac{2\pi}{\lambda}\right)} \\[2.5ex]
+c &= \frac{2\pi f}{\left(\dfrac{2\pi}{\lambda}\right)} \\
 \end{aligned}
 $$
 
@@ -406,7 +403,7 @@ Simplificamos la relacion obtenida
 
 $$
 \begin{aligned}
-c &= \frac{2\pi f \cdot \lambda}{2\pi} \\[2.5ex]
+c &= \frac{2\pi f \cdot \lambda}{2\pi} \\
 \end{aligned}
 $$
 
