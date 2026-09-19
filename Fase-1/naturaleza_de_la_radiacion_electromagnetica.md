@@ -199,7 +199,6 @@ Sutituimos en la igualdad obtenida
 
 $$
 \begin{aligned}
- 
 \frac{\partial}{\partial t}(\nabla \times \vec{B})=\frac{\partial}{\partial t} \left( \mu_0 \varepsilon_0 \frac{\partial \vec{E}}{\partial t} \right) = -\mu_0 \varepsilon_0 \frac{\partial^2 \vec{E}}{\partial t^2}
 \end{aligned}
 $$
@@ -208,7 +207,7 @@ Y juntando nuestra igualdad
 
 $$
 \begin{aligned}
- \nabla^2 \vec{E}=-\mu_0 \varepsilon_0 \frac{\partial^2 \vec{E}}{\partial t^2}
+\nabla^2 \vec{E}=-\mu_0 \varepsilon_0 \frac{\partial^2 \vec{E}}{\partial t^2}
 \end{aligned}
 $$
 
@@ -218,7 +217,6 @@ Ecuacion de onda para el campo electrico
 
 $$
 \begin{aligned}
- 
 \nabla^2 \vec{E}=\mu_0 \varepsilon_0 \frac{\partial^2 \vec{E}}{\partial t^2}
 \end{aligned}
 $$
