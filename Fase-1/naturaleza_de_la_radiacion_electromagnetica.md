@@ -136,3 +136,4 @@ $$
 
 Estas cuatro ecuaciones en conjunto forman toda la estructura electromagnética que nos ayuda a entender como se conforma el mundo de las comunicaciones.
 
+# Derivación de la ecuación de onda para los campos Eléctrico y Magnético

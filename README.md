@@ -9,7 +9,7 @@ La idea final será poder capturar la señal de un control remoto,procesar la se
 
 ### Que son las señales infrarrojas?
 
-1.1 🌊 [Naturaleza de la radiación electromagnética](https://github.com/Drinuxbydrx/Proyecto_Sistema_Transmision_Recepcion_Luz-Infrarroja/blob/main/Fase-1/NaturalezaRadiacionElectromagnetica/naturaleza_de_la_radiacion_electromagnetica.md)
+1.1 🌊 [Naturaleza de la radiación electromagnética]()
 
 * Que es una onda electromagnética?
 * Las ecuaciones de Maxwell
