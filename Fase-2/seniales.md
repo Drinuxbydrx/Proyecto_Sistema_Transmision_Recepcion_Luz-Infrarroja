@@ -33,7 +33,7 @@ $$
 con:
 
 $$
--\infty<t<\infty
+-\infty \lt t \lt \infty
 $$
 
 donde:
